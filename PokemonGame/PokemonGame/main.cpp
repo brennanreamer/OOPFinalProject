@@ -13,7 +13,7 @@ using std::string;
 
 int main() {
 	string name;
-	cout << "Welcome to Pokemon!" << endl;
+	cout << "Welcome to the world of Pokemon!" << endl;
 	cout << "Please enter your name: ";
 	cin >> name;
 	Trainer user = Trainer(name);
@@ -27,7 +27,7 @@ int main() {
 	cin >> choice;
 	if (choice == 1) {
 		char choice_name;
-		cout << "Would you like to name your pokemon? (Y/N)";
+		cout << "Would you like to name your pokemon? (Y/N) ";
 		cin >> choice_name;
 		if (choice_name == 'Y' || choice_name == 'y') { //if user wants to nickname pokemon
 			string nickname;
@@ -46,7 +46,7 @@ int main() {
 	}
 	else if (choice == 2) {
 		char choice_name;
-		cout << "Would you like to name your pokemon? (Y/N)";
+		cout << "Would you like to name your pokemon? (Y/N) ";
 		cin >> choice_name;
 		if (choice_name == 'Y' || choice_name == 'y') { //if user wants to nickname pokemon
 			string nickname;
@@ -64,7 +64,7 @@ int main() {
 	}
 	else if (choice == 3) {
 		char choice_name;
-		cout << "Would you like to name your pokemon? (Y/N)";
+		cout << "Would you like to name your pokemon? (Y/N) ";
 		cin >> choice_name;
 		if (choice_name == 'Y' || choice_name == 'y') { //if user wants to nickname pokemon
 			string nickname;
@@ -83,6 +83,38 @@ int main() {
 	else {
 		cout << "That's not an option" << endl; //Error
 	}
-	user.show_pokemon();
+	//
+	while (choice != 0)
+	{
+		cout << "What would you like to do, trainer?" << endl;
+		cout << "1 - Catch a pokemon" << endl;
+		cout << "2 - Battle a trainer" << endl;
+		cout << "3 - Go to the shop" << endl;
+		cout << "4 - Check your Pokemon" << endl;
+		cout << "0 - Exit" << endl;
+		cin >> choice;
+		if (choice == 1)
+		{
+
+		}
+		else if (choice == 2)
+		{
+
+		}
+		else if (choice == 3)
+		{
+
+		}
+		else if (choice == 4)
+		{
+			user.show_pokemon();
+		}
+		else if (choice == 0)
+		{
+
+		}
+	}
+	//
+
 	return 0;
 }
