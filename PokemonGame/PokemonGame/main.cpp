@@ -1,10 +1,16 @@
 #include <iostream>
 #include <string>
+#include <stdlib.h>
+#include <time.h>
 #include "Trainer.h"
+//Pokemon:
 #include "Pokemon.h"
 #include "Charmander.h"
 #include "Bulbasaur.h"
 #include "Squirtle.h"
+#include "Pidgey.h"
+#include "Caterpie.h"
+#include "Spearow.h"
 
 using std::cin;
 using std::cout;
@@ -12,6 +18,9 @@ using std::endl;
 using std::string;
 
 int main() {
+	srand(time(0));
+	//Create array of wild pokemon for battling
+
 	string name;
 	cout << "Welcome to the world of Pokemon!" << endl;
 	cout << "Please enter your name: ";
@@ -83,11 +92,11 @@ int main() {
 	else {
 		cout << "That's not an option" << endl; //Error
 	}
-	//
+	
 	while (choice != 0)
 	{
 		cout << "What would you like to do, trainer?" << endl;
-		cout << "1 - Catch a pokemon" << endl;
+		cout << "1 - Battle Wild Pokemon" << endl;
 		cout << "2 - Battle a trainer" << endl;
 		cout << "3 - Go to the shop" << endl;
 		cout << "4 - Check your Pokemon" << endl;
@@ -99,7 +108,12 @@ int main() {
 		}
 		else if (choice == 2)
 		{
-
+			int num_poss_trainers = 10; //number of names in below array of trainers
+			Trainer poss_names[3] = { Trainer("Annie", Pidgey(2), Caterpie(3), Spearow(2)),
+				Trainer("Kent", Pidgey(2), Caterpie(3), Spearow(2)),
+				Trainer("Joey", Pidgey(2), Caterpie(3), Spearow(2))};
+			int num = rand() % poss_names.size(); // random choice between 0 and length of array
+			Trainer opponent = poss_names[num];
 		}
 		else if (choice == 3)
 		{

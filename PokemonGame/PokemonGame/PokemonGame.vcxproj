@@ -141,17 +141,23 @@
   <ItemGroup>
     <ClCompile Include="Attack.cpp" />
     <ClCompile Include="Bulbasaur.cpp" />
+    <ClCompile Include="Caterpie.cpp" />
     <ClCompile Include="Charmander.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="Pidgey.cpp" />
     <ClCompile Include="Pokemon.cpp" />
+    <ClCompile Include="Spearow.cpp" />
     <ClCompile Include="Squirtle.cpp" />
     <ClCompile Include="Trainer.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Attack.h" />
     <ClInclude Include="Bulbasaur.h" />
+    <ClInclude Include="Caterpie.h" />
     <ClInclude Include="Charmander.h" />
+    <ClInclude Include="Pidgey.h" />
     <ClInclude Include="Pokemon.h" />
+    <ClInclude Include="Spearow.h" />
     <ClInclude Include="Squirtle.h" />
     <ClInclude Include="Trainer.h" />
   </ItemGroup>

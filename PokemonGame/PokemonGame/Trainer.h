@@ -13,6 +13,7 @@ public:
 
 	Trainer();
 	Trainer(string in_name); //user may set name
+	Trainer(string in_name, Pokemon in_pokemon1, Pokemon in_pokemon2, Pokemon in_pokemon3); //For CPU Trainers, can identify pokemon they have
 	~Trainer();
 
 	//methods

@@ -18,11 +18,20 @@ Trainer::Trainer(string in_name) {
 	potions = 1;
 	pokemon;
 }
+Trainer::Trainer(string in_name, Pokemon in_pokemon1, Pokemon in_pokemon2, Pokemon in_pokemon3) { //FIND WAY TO SHORTEN THIS
+	name = in_name;
+	money = 100;
+	pokeballs = 3;
+	potions = 1;
+	pokemon[0] = in_pokemon1;
+	pokemon[1] = in_pokemon2;
+	pokemon[2] = in_pokemon3;
+}
 Trainer::~Trainer() {
 
 }
 string Trainer::show_name() {
-	return name;
+	return "Trainer " + name;
 }
 void Trainer::throw_pokeball() {
 	pokeballs -= 1; //lose a pokeball who it is thrown
