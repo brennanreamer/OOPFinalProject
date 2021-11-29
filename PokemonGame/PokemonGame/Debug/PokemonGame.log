@@ -1,2 +1,6 @@
 ﻿  main.cpp
-  PokemonGame.vcxproj -> C:\Users\marchantj\Desktop\Object Oriented Programming\OOPFinalProject-master\PokemonGame\Debug\PokemonGame.exe
+C:\Users\marchantj\Desktop\Object Oriented Programming\OOPFinalProject-master\OOPFinalProject-master\PokemonGame\PokemonGame\main.cpp(21,12): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+C:\Users\marchantj\Desktop\Object Oriented Programming\OOPFinalProject-master\OOPFinalProject-master\PokemonGame\PokemonGame\main.cpp(115,38): error C2228: left of '.size' must have class/struct/union
+C:\Users\marchantj\Desktop\Object Oriented Programming\OOPFinalProject-master\OOPFinalProject-master\PokemonGame\PokemonGame\main.cpp(115,38): message : type is 'Trainer [3]'
+  Trainer.cpp
+  Generating Code...
