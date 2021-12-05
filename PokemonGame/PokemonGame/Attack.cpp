@@ -1,4 +1,5 @@
 #include "Attack.h"
+
 Attack::Attack() { //Empty slot (no move)
 	name = "Empty Slot";
 	damage = 0;
@@ -13,4 +14,9 @@ Attack::Attack(string name, int damage, int pp, int accuracy) {
 }
 Attack::~Attack() {
 
+}
+
+string Attack::get_attack()
+{
+	return name;
 }
