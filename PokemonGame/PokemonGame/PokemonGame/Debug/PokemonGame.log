@@ -1,4 +1,0 @@
-﻿  Trainer.cpp
-C:\Users\marchantj\Desktop\Object Oriented Programming\OOPFinalProject-master\OOPFinalProject-jzmarch-patch-3\PokemonGame\PokemonGame\PokemonGame\Trainer.cpp(76,12): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
-C:\Users\marchantj\Desktop\Object Oriented Programming\OOPFinalProject-master\OOPFinalProject-jzmarch-patch-3\PokemonGame\PokemonGame\PokemonGame\Trainer.cpp(166,12): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
-  PokemonGame.vcxproj -> C:\Users\marchantj\Desktop\Object Oriented Programming\OOPFinalProject-master\OOPFinalProject-jzmarch-patch-3\PokemonGame\PokemonGame\Debug\PokemonGame.exe
