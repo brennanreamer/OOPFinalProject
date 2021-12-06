@@ -1,8 +1,0 @@
-﻿  Attack.cpp
-C:\Users\marchantj\Desktop\Object Oriented Programming\OOPFinalProject-master\OOPFinalProject-master\PokemonGame\PokemonGame\Pokemon.h(14,14): error C3646: 'moves': unknown override specifier
-C:\Users\marchantj\Desktop\Object Oriented Programming\OOPFinalProject-master\OOPFinalProject-master\PokemonGame\PokemonGame\Pokemon.h(14,14): error C2143: syntax error: missing ',' before '['
-C:\Users\marchantj\Desktop\Object Oriented Programming\OOPFinalProject-master\OOPFinalProject-master\PokemonGame\PokemonGame\Pokemon.h(14,17): error C2238: unexpected token(s) preceding ';'
-  main.cpp
-C:\Users\marchantj\Desktop\Object Oriented Programming\OOPFinalProject-master\OOPFinalProject-master\PokemonGame\PokemonGame\main.cpp(21,12): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
-  Trainer.cpp
-  Generating Code...
