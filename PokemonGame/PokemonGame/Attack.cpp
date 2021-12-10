@@ -20,3 +20,9 @@ string Attack::get_attack()
 {
 	return name;
 }
+int Attack::show_pp() {
+	return pp;
+}
+int Attack::get_damage() {
+	return damage;
+}

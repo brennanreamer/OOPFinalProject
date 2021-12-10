@@ -10,6 +10,7 @@ class Pokemon
 	int level;
 	int health;
 	int PP;
+	int exp;
 public:
 	Attack moves[4]; //each pokemon has 4 moves
 
@@ -22,6 +23,12 @@ public:
 	string show_name();
 	string show_type();
 	int show_level();
+	int show_exp();
 	int show_health();
+	int show_PP();
+	void set_health(int num);
+	void set_PP(int num);
+	int num_moves();
+	void exp_earn(int amt);
 };
 

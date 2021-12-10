@@ -19,7 +19,14 @@ public:
 	//methods
 	string show_name();
 	void throw_pokeball();
+	int num_pokeball();
+	void set_pokeball(int amount);
+	void set_money(int amount);
+	int show_money();
 	void show_pokemon();
-	void catch_pokemon(Pokemon name, Trainer user);
+	void catch_pokemon(Pokemon name);
+	void fight(Trainer user, Trainer& opp);
+	void wild_battle(Trainer user, Pokemon& opp);
+	int num_pokemon();
 };
 
